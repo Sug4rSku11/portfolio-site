@@ -22,7 +22,8 @@ function App() {
         </body>
     
      <footer>
-       <p>Designed and coded by Desiree Garcia</p>
+       <p>❤️ Designed and coded by Desiree Garcia ❤️</p>
+       <p>Still a work in progress.</p>
      </footer>
     </div>
   );

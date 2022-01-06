@@ -1,6 +1,8 @@
 import './App.css';
 import About from './components/About'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+
 
 function App() {
   return (
@@ -8,18 +10,19 @@ function App() {
         {/* <Navigation /> */}
         <header>
           <nav>
-          <a href="#">Top</a>
-          <a href="/About">About</a>
-          <a href="/Projects">Projects</a>
+            <h5>Desiree Garcia</h5>
+            <a href="https://github.com/Sug4rSku11" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/d3sir33g/" target="_blank">LinkedIn</a>
           </nav>
         </header>
         <body>
-        <About/>
-        <Projects/>
+          <About/>
+          <Projects/>
+          <Contact />
         </body>
     
      <footer>
-       <p>Made with ❤️ by Desiree Garcia</p>
+       <p>Designed and coded by Desiree Garcia</p>
      </footer>
     </div>
   );

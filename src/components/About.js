@@ -9,7 +9,7 @@ const About = () => {
                 <p>I have an Associates Degree in Cybersecurity and Computer 
                     Technology, and a Certificate in System Administration from 
                     New Mexico State University- Doña Ana. I am currently pursuing 
-                    a BA in Information Security from NMSU. I was accepted 
+                    a BA in Information and Communication Technology from NMSU. I was accepted 
                     into BloomTech Bootcamp where I have learned languages and 
                     worked on projects to become a Full Stack Web Developer.</p>
                 <p className='about'>TECHNICAL SKILLS:</p>   

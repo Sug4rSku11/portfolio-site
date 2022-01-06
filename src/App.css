@@ -1,7 +1,7 @@
 .app {
   font-family: 'Dosis', sans-serif;
   background-image: linear-gradient(to right bottom, #192a51, #353e66, #50537c, #6a6a92, #8581a9, #9b90b5, #b09fc1, #c5afcd, #d5bbd1, #e2c9d6, #edd7de, #f5e6e8);
-height: 200vh;
+/* height: 200vh; */
 }
 nav {
   display: flex;
@@ -66,6 +66,9 @@ footer {
 }
 .projects p {
   line-height: 2em;
+}
+.home {
+  margin-top: 5%;
 }
 .home-a {
   display: flex;

@@ -1,6 +1,6 @@
 .app {
   font-family: 'Dosis', sans-serif;
-  background-image: linear-gradient(to right bottom, #192a51, #353e66, #50537c, #6a6a92, #8581a9, #9b90b5, #b09fc1, #c5afcd, #d5bbd1, #e2c9d6, #edd7de, #f5e6e8);
+  background-color: #f7f7f7;
   
 }
 /* Nav */
@@ -12,7 +12,7 @@ nav {
   top: 0;
   width: 100%;
   padding: 2% 3%;
-  background-color: #D5C6E0;
+  background-color: #e8e8e8;
   color: #192a51;
 }
 nav a {
@@ -140,7 +140,7 @@ button {
   font-family: 'Dosis', sans-serif;
   border-radius: 8px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-  padding: 20%;
+  padding: 10%;
   color:#192a51;
   background-color: #f5e6e8;
   font-size: 1.3rem;

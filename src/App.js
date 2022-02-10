@@ -19,6 +19,7 @@ function App() {
         <body>
           <About/>
           <Projects/>
+          {/* <Home /> */}
           <Contact />
         </body>
     

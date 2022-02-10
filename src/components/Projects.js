@@ -1,7 +1,7 @@
 import React from "react";
-import aMarketplace from '../Images/aMarketplace.png'
-import PotluckPlanner from '../Images/PotluckPlanner.png'
-import AnywhereFitness from '../Images/AnywhereFitness.png'
+import aMarketplace from '../components/Images/aMarketplace.png'
+import PotluckPlanner from '../components/Images/aMarketplace.png'
+import AnywhereFitness from '../components/Images/AnywhereFitness.png'
 
  import Carousel from 'react-bootstrap/Carousel'
 

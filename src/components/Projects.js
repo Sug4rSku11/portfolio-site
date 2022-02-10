@@ -2,6 +2,7 @@ import React from "react";
 import aMarketplace from '../components/Images/aMarketplace.png'
 import PotluckPlanner from '../components/Images/aMarketplace.png'
 import AnywhereFitness from '../components/Images/AnywhereFitness.png'
+// import Resume from '../components/Resume'
 
  import Carousel from 'react-bootstrap/Carousel'
 
@@ -59,6 +60,7 @@ return(
         <a href="https://github.com/bw-anywherefitness-3/backend" target="_blank">GitHub Code</a>
         </div>
     </div>
+    {/* <p><a className="resume" href={Resume} target="_blank">Resume</a></p> */}
     </div>
    
  )

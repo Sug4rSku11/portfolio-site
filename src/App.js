@@ -24,8 +24,7 @@ function App() {
         </body>
     
      <footer>
-       <p> Desiree Garcia 2022
-       </p>
+       <p> Desiree Garcia -2022-</p>
        <p>
        <a href="github.com/Sug4rSku11/"><i class="fa-brands fa-github"></i></a>
        </p>

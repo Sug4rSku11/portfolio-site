@@ -107,7 +107,7 @@ footer i {
 
 /* About Section ---------------------------------------------------*/
 .about-container {
-  background: url("./Images/sky.png") no-repeat center center;
+  background: url("../src/components/Images/sky.png") no-repeat center center;
   /* background-position: center;
   background-repeat: no-repeat; */
   height: 100%;

@@ -3,7 +3,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact';
 import Home from './components/Home'
-import name from './Images/Desiree_Garcia.png'
+import name from '../src/components/Images/Desiree_Garcia.png'
 
 function App() {
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import name from '../Images/Desiree_Garcia.png';
-import Ima from '../Images/Ima.png'
+import Ima from '../components/Images/Ima.png'
 
 const About = () => {
     return (

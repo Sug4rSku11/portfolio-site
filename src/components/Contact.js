@@ -8,7 +8,7 @@ const Contact = () => {
             <a href="mailto:051jvqstj@mozmail.com?subject=
                     I%20am%20interested%20in%20working%20together"
                     target="_top">
-            <button >Contact</button></a>
+            <button className='contact-btn'>Contact</button></a>
         </div>
         
     )

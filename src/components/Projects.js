@@ -1,6 +1,6 @@
 import React from "react";
 import aMarketplace from '../components/Images/aMarketplace.png'
-import PotluckPlanner from '../components/Images/aMarketplace.png'
+import PotluckPlanner from '../components/Images/PotluckPlanner.png'
 import AnywhereFitness from '../components/Images/AnywhereFitness.png'
 // import Resume from '../components/Resume'
 

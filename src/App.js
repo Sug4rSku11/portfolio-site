@@ -1,29 +1,31 @@
 import './App.css';
-import About from './components/About'
-import Projects from './components/Projects'
+import About from './components/About';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Home from './components/Home'
-import name from '../src/components/Images/Desiree_Garcia.png'
+import Home from './components/Home';
+import name from '../src/components/Images/Desiree_Garcia.png';
+import Maintenance from './components/Images/Maintenance';
 
 function App() {
   return (
     <div className="app">
         {/* <Navigation /> */}
         <header>
-          <nav>
-          <img className="nav-name" src={name}></img>
+         <nav>
+           <img className="nav-name" src={name}></img>
             <a href="https://github.com/Sug4rSku11" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/d3sir33g/" target="_blank">LinkedIn</a>
           </nav>
         </header>
         <body>
-          <About/>
+          <Maintenance />
+          {/* <About/>
           <Projects/>
           {/* <Home /> */}
-          <Contact />
+          {/* <Contact /> */} 
         </body>
     
-     <footer>
+     {/* <footer>
        <p> Desiree Garcia -2022-</p>
        <p>
        <a href="github.com/Sug4rSku11/"><i class="fa-brands fa-github"></i></a>
@@ -33,7 +35,7 @@ function App() {
        </p>
        
        
-     </footer>
+     </footer> */}
     </div>
   );
 }

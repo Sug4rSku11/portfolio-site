@@ -87,14 +87,16 @@ footer i {
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  border: 2px solid blue;
+}
+.about-img {
+  margin: 1%;
 }
 .me{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  margin: 5%;
 }
 
 .homepage{
@@ -145,7 +147,7 @@ footer i {
   margin-top: 5%;
 
 }
-.project-desc {
+.school {
   
   justify-content: center;
   line-height: 1.5;

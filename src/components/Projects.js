@@ -5,11 +5,9 @@ const Projects = () => {
 return(
     <div className="projects"> 
     <div>
-      <h2>Projects I have worked on.</h2>
+      <h2>Projects</h2>
       </div>
-    <div>
     
-</div>
     <div className="descriptions">
       <div className="project-desc">
         <p className="proj-title">African Marketplace</p>

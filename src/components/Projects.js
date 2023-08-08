@@ -1,10 +1,5 @@
 import React from "react";
-import aMarketplace from '../components/Images/aMarketplace.png'
-import PotluckPlanner from '../components/Images/PotluckPlanner.png'
-import AnywhereFitness from '../components/Images/AnywhereFitness.png'
-// import Resume from '../components/Resume'
 
- import Carousel from 'react-bootstrap/Carousel'
 
 const Projects = () => {
 return(
@@ -13,29 +8,7 @@ return(
       <h2>Projects I have worked on.</h2>
       </div>
     <div>
-    <Carousel  className="carousel">
-  <Carousel.Item>
-    <a href="https://front-end-sage-ten.vercel.app/home" target="_blank"><img
-      className="d-block w-100"
-      src={aMarketplace}
-      alt="First slide"
-    /></a>
-  </Carousel.Item>
-  <Carousel.Item>
-    <a href="https://potluck-bw-planner.herokuapp.com/" target="_blank"><img
-      className="d-block w-100"
-      src={PotluckPlanner}
-      alt="Second slide"
-    /></a>
-  </Carousel.Item>
-  <Carousel.Item>
-    <a href="https://github.com/bw-anywherefitness-3/backend" target="_blank"><img
-      className="d-block w-100"
-      src={AnywhereFitness}
-      alt="Third slide"
-    /></a>
-  </Carousel.Item>
-</Carousel>
+    
 </div>
     <div className="descriptions">
       <div className="project-desc">

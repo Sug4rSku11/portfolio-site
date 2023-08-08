@@ -3,7 +3,7 @@
 .app {
   font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
-  min-height:100vh;
+  /* min-height:100vh; */
     padding: 0;
   
   
@@ -36,11 +36,11 @@ nav a:hover {
 nav a:visited {
   color: #ffffff;
 }
-nav h5 {
+/* nav h5 {
   font-size: 2.3rem;
   font-weight: lighter;
   font-family: 'Hurricane', cursive;
-}
+} */
 
 
 /* Footer --------------------------------------*/
@@ -69,17 +69,17 @@ footer i {
   justify-content: center;
   align-items: center;
   border: 2px solid blue;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 .home-img {
-  margin: 5%;
+  /* margin: 1%; */
 }
 .home-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10%;
+  /* margin: 10%; */
 }
 /* About Section ---------------------------------------------------*/
 .about{
@@ -117,7 +117,12 @@ footer i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid blue;
+  align-items: center;
+  padding: 2%;
+  width: 20%;
+  height: 35vh;
+  background-color: #badbfd;
+  border-radius: 20px;
 }
 .services-h4 {
   display: flex;

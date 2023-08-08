@@ -5,25 +5,27 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import name from '../src/components/Images/Desiree_Garcia.png';
 import Maintenance from './components/Images/Maintenance';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="app">
-        {/* <Navigation /> */}
-        <header>
-         <nav>
+    
+      <Navigation /> 
+    
+        
+         {/* <nav>
            <img className="nav-name" src={name}></img>
             <a href="https://github.com/Sug4rSku11" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/d3sir33g/" target="_blank">LinkedIn</a>
-          </nav>
-        </header>
-        <body>
-          <Maintenance />
-          {/* <About/>
-          <Projects/>
+          </nav> */}
+        
+        
           {/* <Home /> */}
-          {/* <Contact /> */} 
-        </body>
+           {/* <About/> */}
+           {/* <Projects/>  */}
+           {/* <Contact />  */}
+        
     
      {/* <footer>
        <p> Desiree Garcia -2022-</p>

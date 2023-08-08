@@ -1,39 +1,47 @@
+
+
 .app {
-  font-family: 'Playfair Display', serif;
-  background-color: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  min-height:100vh;
+    padding: 0;
+  
   
 }
 /* Nav --------------------------------------*/
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 2% 3%;
-  background-color: #ffdbf672;
-  color: #212529;
+  justify-content: space-around;
+  /* top: 0; */
+  /* width: 100%; */
+  background-color: #60a7ed;
+  color:#ffffff;
+  padding: 1%;
+ 
+ margin-bottom: 50%;
 }
+/* .nav-img {
+  object-fit: scale-down;
+  
+  border: 5px solid red;
+} */
 nav a {
   text-decoration: none;
   font-size: 1.6rem;
 }
 nav a:hover {
-  color: #212529;
+  color: #d0a3f3;
 }
 nav a:visited {
-  color: #212529;
+  color: #ffffff;
 }
 nav h5 {
   font-size: 2.3rem;
   font-weight: lighter;
-  /*font-family: 'Hurricane', cursive;*/
+  font-family: 'Hurricane', cursive;
 }
-.nav-name{
-  width: 20%;
-  
-}
+
 
 /* Footer --------------------------------------*/
 footer {
@@ -54,7 +62,69 @@ footer i {
 .fa-brands {
   font-size: 1.5rem;
 }
+/* Home Section ----------------------------------------*/
+.home-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  margin-top: 10%;
+}
+.home-img {
+  margin: 5%;
+}
+.home-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+/* About Section ---------------------------------------------------*/
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  margin-top: 10%;
+}
+.me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+.about-img{
+  margin: 5%;
+}
+.homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Services Section ----------------------------------------*/
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
+}
+.services-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid blue;
+}
+.services-h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
 /* Projects Section ----------------------------------------*/
 
 .projects {
@@ -108,37 +178,7 @@ footer i {
 
 
 
-/* About Section ---------------------------------------------------*/
-.about-container {
-  background: url("../src/components/Images/sky.png") no-repeat center center;
-  /* background-position: center;
-  background-repeat: no-repeat; */
-  height: 100%;
-  background-size: cover;
-  overflow: hidden;
-  margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  
-}
-.about-container img{
-  margin-top: 15%;
-}
-.typewriter{
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem;
-  margin-top: 10%;
-  margin-bottom: 20%;
-}
-.homepage{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 /* Contact Section ---------------------------------*/
 .contact {
   display: flex;

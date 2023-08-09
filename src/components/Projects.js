@@ -1,42 +1,37 @@
-import React from "react";
+import { useState } from 'react';
+import items from './ProjectData';
+import Menu from './ProjectMenu';
+import Button from './ProjectButtons';
 
+const allCategories = ['All', ...new Set(items.map(item => item.category))];
 
-const Projects = () => {
-return(
-    <div className="projects"> 
+console.log(allCategories);
+
+function Projects() {
+  const [menuItem, setMenuItem] = useState(items);
+  const [buttons, setButtons] = useState(allCategories);
+
+  //Filter Function
+  const filter = (button) =>{
+
+    if(button === 'All'){
+      setMenuItem(items);
+      return;
+    }
+    const filterData = items.filter(item => item.category === button);
+    setMenuItem(filterData)
+  }
+
+  return (
     <div>
-      <h2>Projects</h2>
+      <div>
+        <h1>Projects
+          <span>Filter</span>
+        </h1>
       </div>
-  
-    <div className="descriptions">
-      <div className="school">
-        <p className="proj-title">African Marketplace</p>
-        <li>Collaborative project with members of BloomTech cohort.</li>
-            <li>Worked on scaffolding input forms and worked on CSS for the Front End</li>
-            <li>Built with HTML, CSS, Javascript, React, NodeJS </li>
-            <a href="https://github.com/Build-Week-ft-african-marketplace-3/front-end" target="_blank">GitHub Code</a>
-      </div>
-      <div className="school">
-        <p className="proj-title">Potluck Planner</p>
-        <li>Collaborative project with members of BloomTech cohort.</li>
-        <li>Worked on coding the Events page for a Users profile in the Front End</li>
-        <li>Built with HTML, CSS, ReactJS, NodeJS </li>
-        <a href="https://github.com/bwpotluckplanner3/frontend" target="_blank">GitHub Code</a>
-      </div>
-      <div className="school">
-        <p className="proj-title">Anywhere Fitness</p>
-        <li>Pair programmed with another member of BloomTech cohort.</li>
-        <li>Worked on backend to provide data to the Front End.</li>
-        <li>Built with NodeJs, Express, SQL, Knex, PostgreSQL </li>
-        <a href="https://github.com/bw-anywherefitness-3/backend" target="_blank">GitHub Code</a>
-        </div>
+      <Button button={buttons} filter={filter}/>
+    <Menu menuItem={menuItem}/>
     </div>
-   
-    </div>
-   
- )
-
+  );  
 }
-
 export default Projects;
-

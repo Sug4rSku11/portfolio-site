@@ -24,10 +24,8 @@ function Projects() {
 
   return (
     <div>
-      <div>
-        <h1>Projects
-          <span>Filter</span>
-        </h1>
+      <div className='projects-title'>
+        <h1>Projects</h1>
       </div>
       <Button button={buttons} filter={filter}/>
     <Menu menuItem={menuItem}/>

@@ -11,7 +11,8 @@ const Home = () => {
 			<div className="home-me">
 				<h2>Desiree Garcia</h2>
 				<p>
-				A little description of what I do.
+				Hi there! I'm Desiree, a Software Developer based in New Mexico.
+				I love to design and build web applications.
 				</p>
 			</div>
 	</div>

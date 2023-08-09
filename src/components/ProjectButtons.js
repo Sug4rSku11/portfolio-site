@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button({button, filter}) {
     return (
-        <div>
+        <div className='buttons'>
             {
                 button.map((cat, i) =>{
                     return <button type="button" onClick={()=> filter(cat)} className='cat-btn'>{cat}</button>

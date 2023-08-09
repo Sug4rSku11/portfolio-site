@@ -2,12 +2,13 @@ import React from 'react';
 
 function Menu({menuItem}) { 
     return ( 
-        <div>
+        <div className='item'>
             {
                 menuItem.map((item) =>{
                     return <div className='item-con' key={item.id}>
                             <div className='item-container'>
-                                <img src={item.imgage} alt=""/>
+                               <a href={item.link} target="_blank">
+                                <img className="item-img" src={item.image} alt=""/></a>
                                 <h2>{item.title}</h2>
                                 <p>{item.description}</p>
                           </div>

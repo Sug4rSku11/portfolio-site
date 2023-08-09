@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import name from '../src/components/Images/Desiree_Garcia.png';
-import Maintenance from './components/Images/Maintenance';
+
 import Navigation from './components/Navigation';
 
 function App() {
